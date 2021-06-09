@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/linearLayout">
+
+
+    <ImageView
+        android:id="@+id/spaceStationIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/space_station_icon"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_conversion_absoluteHeight="30dp"
+        tools:layout_conversion_absoluteWidth="30dp"
+        tools:layout_editor_absoluteX="53dp" />
+
+    <TextView
+        android:id="@+id/spaceStationLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/space_stations"
+        tools:layout_conversion_absoluteHeight="19dp"
+        tools:layout_editor_absoluteY="38dp"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_conversion_absoluteWidth="94dp" />
+
+
+    <ImageView
+        android:id="@+id/flightsIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rocket_icon"
+        tools:layout_conversion_absoluteHeight="30dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_conversion_absoluteWidth="30dp" />
+
+    <TextView
+        android:id="@+id/flightsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/flights"
+        tools:layout_conversion_absoluteHeight="19dp"
+        tools:layout_editor_absoluteY="38dp"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_conversion_absoluteWidth="42dp" />
+
+
+    <ImageView
+        android:id="@+id/roverIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rover_icon"
+        tools:layout_conversion_absoluteHeight="30dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="328dp"
+        tools:layout_conversion_absoluteWidth="30dp" />
+
+    <TextView
+        android:id="@+id/roverLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rovers"
+        tools:layout_conversion_absoluteHeight="19dp"
+        tools:layout_editor_absoluteY="38dp"
+        tools:layout_editor_absoluteX="321dp"
+        tools:layout_conversion_absoluteWidth="43dp" />
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:paddingEnd="20dp"
+        android:text="@string/dca"
+        android:textColor="@android:color/white"
+        tools:layout_conversion_absoluteHeight="98dp"
+        tools:layout_editor_absoluteY="82dp"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_conversion_absoluteWidth="124dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:paddingStart="20dp"
+        android:text="@string/mars"
+        android:textColor="@android:color/white"
+        tools:layout_conversion_absoluteHeight="98dp"
+        tools:layout_editor_absoluteY="82dp"
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_conversion_absoluteWidth="124dp" />
+
+    <ImageView
+        android:id="@+id/doubleArrowsIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/double_arrows"
+        tools:layout_conversion_absoluteHeight="60dp"
+        tools:layout_editor_absoluteY="100dp"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_conversion_absoluteWidth="60dp" />
+
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:padding="8dp"
+        android:checked="false"
+        android:switchPadding="24dp"
+        android:text="@string/one_way"
+        android:textColor="@android:color/white"
+        tools:layout_conversion_absoluteHeight="35dp"
+        tools:layout_editor_absoluteY="195dp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_conversion_absoluteWidth="160dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:padding="8dp"
+        android:text="@string/traveller"
+        android:textColor="@android:color/white"
+        tools:layout_conversion_absoluteHeight="35dp"
+        tools:layout_editor_absoluteY="247dp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_conversion_absoluteWidth="82dp" />
+
+    <ImageView
+        android:id="@+id/rocketIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rocket_icon"
+        tools:layout_conversion_absoluteHeight="30dp"
+        tools:layout_editor_absoluteY="412dp"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_conversion_absoluteWidth="30dp" />
+
+    <ImageView
+        android:id="@+id/galaxyIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/galaxy"
+        tools:layout_conversion_absoluteHeight="90dp"
+        tools:layout_editor_absoluteY="382dp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_conversion_absoluteWidth="90dp" />
+
+
+    <Button
+        android:id="@+id/departButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/depart"
+        android:textColor="@android:color/white"
+        app:backgroundTint="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_editor_absoluteY="675dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_conversion_absoluteWidth="411dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
